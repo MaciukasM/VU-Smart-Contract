@@ -1,6 +1,9 @@
 # VU-Smart-Contract
 Repository for a decentralized blockchain application for the VU Blockchain course.
 
+This tutorial was a huge help for this project:
+[Dapp University Tutorial](https://www.dappuniversity.com/articles/blockchain-app-tutorial)
+
 ## Getting started
 First of all, after cloning the repository, you need to install a couple of packages and programs - NodeJS, Truffle, Ganache and npm. 
 
