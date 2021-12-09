@@ -12,8 +12,29 @@ Then, after opening Ganache, type (once again in Git Bash) ```truffle compile```
 
 Finally, you can (once again in Git Bash) type ```npm run dev``` and go to ```http://localhost:3000``` to see the decentralized application in action!
 
+Note. You can use ```truffle test``` to run 4 tests that ensure that everything is working:
+```shell
+Contract: Uzsakymai
+    √ deployinimo testavimas
+    √ uzsakymu isvardinimo testavimas (147ms)
+    √ uzsakymu kurimo testavimas (590ms)
+    √ uzsakymu statuso pakeitimo testavimas (2073ms)
+
+
+  4 passing (3s)
+```
+This is how it should look like after compiling if everything is in order.
+
 ## Business model logic
 
 This application was made to register orders for a restaurant. A worker can enter the information of the order and change its status (i.e. if it's completed or not).
 
 The logic is presented in this sequence diagram:
+
+![model](model.png)
+
+## Front-end
+
+This is how the application's front-end looks like:
+
+![front-end](front-end.png)
