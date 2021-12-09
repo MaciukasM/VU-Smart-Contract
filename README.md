@@ -38,3 +38,7 @@ The logic is presented in this sequence diagram:
 This is how the application's front-end looks like:
 
 ![front-end](front-end.png)
+
+You can see the connected account in the top right corner of the page.
+
+The input box for the orders is in the middle of the page, along with the current and completed orders (which are shown below the input box).
