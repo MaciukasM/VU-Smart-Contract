@@ -1,0 +1,7 @@
+{
+    "server": 
+    {
+      "baseDir": ["./dizainui", "./build/contracts"]
+    },
+    "routes": { "/a": "./node_modules"}
+}
